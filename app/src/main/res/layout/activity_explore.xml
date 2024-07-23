@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExploreActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fitsSystemWindows="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/audiolayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <project.first.lifebalance.AudioSection
+                android:layout_width="match_parent"
+                app:title="@string/hz8000"
+                app:audio="@raw/hz8000"
+                android:layout_height="match_parent"/>
+
+            <project.first.lifebalance.AudioSection
+                android:layout_width="match_parent"
+                app:title="@string/hz14000"
+                app:audio="@raw/hz14000"
+                android:layout_height="match_parent"/>
+
+            <project.first.lifebalance.AudioSection
+                android:layout_width="match_parent"
+                app:title="@string/hz17000"
+                app:audio="@raw/hz17400"
+                android:layout_height="match_parent"/>
+
+            <project.first.lifebalance.AudioSection
+                android:layout_width="match_parent"
+                app:title="@string/hz18000"
+                app:audio="@raw/hz18000"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

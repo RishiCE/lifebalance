@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:clipToPadding="false"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:id="@+id/title"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:elevation="5dp"
+        android:background="@color/white"
+        android:layout_margin="15sp"
+        android:orientation="horizontal">
+
+        <VideoView
+            android:id="@+id/wave"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/play" />
+
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@id/menu"
+            android:contentDescription="play the sound"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:src="@drawable/play" />
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="play the sound"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:src="@drawable/more" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

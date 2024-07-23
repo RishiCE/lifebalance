@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ring"
+        android:title="Set as ringtone" />
+    <item
+        android:id="@+id/notify"
+        android:title="Set as notification sound" />
+</menu>

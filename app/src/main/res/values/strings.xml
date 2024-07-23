@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Life Balance</string>
+
+    <string name="info">Did you know that, as we age, we can no longer hear certain high-pitched noises as well as we did during our youth?
+        There are sound frequencies that only young people can hear. This ear-aging process is called presbycusis, and it can begin as
+        early as 18. It\'s a result of the natural aging of the cells in our ears, and it\'s unavoidable. However, if you\'ve been good
+        to your ears through the years you may be able to detect frequencies that are young for your age.</string>
+
+    <string name="hz8000">8000 hertz (cycles per second): Everyone should be able to hear this frequency. This means you are alive. </string>
+    <string name="hz14000">This is 14,400 hertz. This should be difficult for anyone over 40 to hear. There should be a slight click when the sound begins</string>
+    <string name="hz18000">Finally, at 18,000 hertz, this sound should be hard to hear no matter WHAT age you are:</string>
+    <string name="hz17000">Now this is the sound that separates the men from the boys — literally. At 17,400 hertz, this sound has been used to stop teenagers from loitering at stores.
+In other words, if you\'re not a teenager, chances are you won\'t be able to hear this sound.</string>
+
+    <string name="instruction">
+        (1) Go to a quite place. There should not be any kind of sound distraction.\n
+        (2) Either max out your volume or use a headphone.\n
+        (3) Click on start to start the test, hold down the button until you start hearing beep sound for at least 3 seconds.
+        (4) The moment you release the button, the test will stop and you will be able to see the result.
+    </string>
+
+    <string name="tip_good">
+        Your ear are healthy. You should now focus on your concentration of mind which can help you hear more clearly
+    </string>
+
+    <string name="tip_average">
+        It\'s okey. Your ears are not as bad as of others. Just avoid using loudspeakers or headphone for long time to maintain your ear healthy
+    </string>
+
+    <string name="tip_bad">
+        If it\'s because you are old, then it\'s normal. If you aren\'t then it is really a matter of concern. Please consult with a doctor
+    </string>
+
+    <string name="description">An app by which you can test your hearing capacity and understand the human audible spectrum.
+        You can get a rough estimate of how your ears are performing with your age Without going to the clinic however,
+        this cannot be used as an alternative to ordinary medical tests. If you find your ear unhealthy, you should go for a proper medical test\n\n
+        𝙏𝙝𝙞𝙨 𝙖𝙥𝙥 𝙞𝙨 𝙙𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙙 𝙗𝙮 𝙖 𝙩𝙚𝙖𝙢 𝙤𝙛 𝙘𝙤𝙢𝙥𝙪𝙩𝙚𝙧 𝙨𝙘𝙞𝙚𝙣𝙘𝙚 𝙚𝙣𝙜𝙞𝙣𝙚𝙚𝙧𝙞𝙣𝙜 𝙨𝙩𝙪𝙙𝙚𝙣𝙩𝙨, 𝙬𝙞𝙩𝙝 𝙨𝙪𝙥𝙚𝙧𝙫𝙞𝙨𝙞𝙤𝙣 𝙖𝙣𝙙 𝙜𝙪𝙞𝙙𝙖𝙣𝙘𝙚 𝙤𝙛 🖤 𝘿𝙧. 𝙂𝙖𝙪𝙧𝙖𝙫 𝘽𝙖𝙩𝙝𝙡𝙖.
+    </string>
+
+
+</resources>
